@@ -14,7 +14,7 @@ def merge_word_files(output_path, *input_files):
 
 merge_word_files(
     "merged.docx",
-    "file1.docx",
-    "file2.docx",
-    "file3.docx"
+    "merge.docx",
+    "6.docx"
+    
 )
