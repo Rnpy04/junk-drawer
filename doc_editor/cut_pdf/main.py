@@ -1,10 +1,10 @@
 from PyPDF2 import PdfReader, PdfWriter
 
 input_pdf = "input.pdf"
-output_pdf = "output.pdf"
+output_pdf = "out.pdf"
 
-start_page = 60
-end_page = 129
+start_page = 39
+end_page = 42
 
 reader = PdfReader(input_pdf)
 

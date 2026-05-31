@@ -1,8 +1,8 @@
 import csv 
 
-the_file=open(r"D:\jadi_py_dore\practises/1741502118270796.csv")
+the_file=open(r"j.csv")
 csv_reader=csv.reader(the_file)
-outfile= open(r"D:\jadi_py_dore\practises/out.csv",mode="w",newline='')
+outfile= open(r"out.csv",mode="w",newline='')
 csv_write=csv.writer(outfile,delimiter=',')
 csv_write.writerow(["Product Name","Price","Quantity","sum"])
 

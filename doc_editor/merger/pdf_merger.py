@@ -12,7 +12,7 @@ def merge_pdfs(output_path, *pdf_files):
 
 merge_pdfs(
     "merged.pdf",
-    "a.pdf",
-    "b.pdf",
-    "c.pdf"
+    "1.pdf",
+    "2.pdf",
+    "3.pdf"
 )
